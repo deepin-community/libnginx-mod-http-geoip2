@@ -2,13 +2,13 @@ Source: libnginx-mod-http-geoip2
 Section: httpd
 Priority: optional
 Maintainer: Debian Nginx Maintainers <pkg-nginx-maintainers@alioth-lists.debian.net>
-Uploaders: Jan Mojžíš <jan.mojzis@gmail.com>,
+Uploaders: Jan Mojžíš <janmojzis@debian.org>,
 Build-Depends: debhelper-compat (= 13),
                dh-sequence-nginx,
                libmaxminddb-dev,
                libnginx-mod-stream,
                nginx-dev (>= 1.24.0-2),
-Standards-Version: 4.6.2
+Standards-Version: 4.7.2
 Homepage: https://github.com/leev/ngx_http_geoip2_module
 Vcs-Git: https://salsa.debian.org/nginx-team/libnginx-mod-http-geoip2.git
 Vcs-Browser: https://salsa.debian.org/nginx-team/libnginx-mod-http-geoip2
